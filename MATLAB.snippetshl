@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>matlab</string>
+	<key>Name</key>
+	<string>MATLAB</string>
+	<key>Extension</key>
+	<string>m</string>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>%</string>
+			</dict>
+		</array>
+		<key>Directives</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>!</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>%{</string>
+				<key>End String</key>
+				<string>%}</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>...</string>
+			<string>tic</string>
+			<string>toc</string>
+		</array>
+		<key>Keywords</key>
+		<array>
+			<string>end</string>
+			<string>if</string>
+			<string>else</string>
+			<string>elseif</string>
+			<string>switch</string>
+			<string>case</string>
+			<string>otherwise</string>
+			<string>for</string>
+			<string>parfor</string>
+			<string>while</string>
+			<string>return</string>
+			<string>break</string>
+			<string>continue</string>
+			<string>function</string>
+			<string>classdef</string>
+			<string>properties</string>
+			<string>methods</string>
+			<string>global</string>
+			<string>persistent</string>
+			<string>clear</string>
+			<string>try</string>
+			<string>catch</string>
+			<string>endfunction</string>
+			<string>endfor</string>
+			<string>endwhile</string>
+		</array>
+	</dict>
+</dict>
+</plist>
