@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>r</string>
+	<key>Name</key>
+	<string>R</string>
+	<key>Extension</key>
+	<string>R</string>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#</string>
+			</dict>
+		</array>
+		<key>Directives</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#line</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Multiline</key>
+	<dict>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>if</string>
+			<string>else</string>
+			<string>repeat</string>
+			<string>while</string>
+			<string>function</string>
+			<string>for</string>
+			<string>in</string>
+			<string>next</string>
+			<string>break</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>TRUE</string>
+			<string>FALSE</string>
+			<string>NULL</string>
+			<string>Inf</string>
+			<string>NaN</string>
+			<string>NA</string>
+			<string>NA_integer_</string>
+			<string>NA_real_</string>
+			<string>NA_complex_</string>
+			<string>NA_character_</string>
+			<string>...</string>
+			<string>..1</string>
+			<string>..2</string>
+		</array>
+	</dict>
+</dict>
+</plist>
